@@ -1,0 +1,155 @@
+*{
+    margin: 10;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+#header{
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: #e3e6f3;
+    box-shadow: 0 5px 15px rgba(0,0,0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0
+}
+.container{
+    position: relative;
+    display: block;
+    
+}
+.cureItDiv{
+    text-align: right;
+}
+
+.logo{
+    margin-right: 4em;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+    white-space: nowrap;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a111a;
+}
+
+#navbar li a:hover{
+color: aqua;
+}
+#navbar li a:hover,
+#navbar li a.active{
+    color: aqua;
+}
+#navbar li a.active::after,
+#navbar li a:hover::after
+{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #088278;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+/***treatmnet*/
+.treatmentWrapper{
+    justify-content: space-between;
+    margin: 30px;
+    padding: 80px;
+    border: 1px solid #088278;
+    padding-bottom: 55px;
+    display: flex;
+    align-items: flex-start; 
+
+}
+.treatmentWrapper{
+    display: flex;
+}
+
+
+#hero h4{
+    padding-bottom: 15px;
+}
+#hero h4{
+    color: #17a2b8;
+}
+
+#hero .text{
+  
+  text-align: right;
+  
+  top: 10px;
+  
+  
+}
+
+
+.meds {
+    
+padding: 40px 80px;
+}
+
+
+
+.feature{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap: wrap; 
+}
+
+.fe-box{
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0,0,0, 0.06);
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+    margin: 15px 0;
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/*steps on how it works*/
+
+.howitworks{
+text-align: center;
+
+}
+.steps{
+    text-align: right; 
+    text-align: ;
+    
+}
+
+/*callondoc*/
+#callondoc {
+    
+    justify-content: space-between;
+    margin: 30px;
+    padding: 80px;
+    border: 1px solid #088278;
+}
+.COD {
+    padding-bottom: 25px;
+    display: flex;
+    align-items: flex-start;  
+}
